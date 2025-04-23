@@ -25,7 +25,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="bg-white/90 backdrop-blur-sm shadow-md py-6">
+        <header className="bg-white backdrop-blur-sm shadow-md py-6">
           <div className="container mx-auto flex items-center gap-8 px-4">
             {profileImageUrl && (
               <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="rounded-full overflow-hidden h-10 w-10 hover:opacity-80 transition duration-300">
